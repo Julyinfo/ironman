@@ -11,6 +11,6 @@ bp = Blueprint('sync', __name__)
 @headers({'Cache-Control': 's-maxage=0, max-age=0'})
 def hc():
     return_obj = {
-        "message": 'Hi, This endpoint for web service health check'
+        "message": 'Hi, htere,  This endpoint for web service health check'
     }
     return json.dumps(return_obj, ensure_ascii=False)
